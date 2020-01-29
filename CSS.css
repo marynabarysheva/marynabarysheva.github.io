@@ -1,0 +1,291 @@
+.bg-img1 {
+  background-image: url("https://images.unsplash.com/photo-1505682634904-d7c8d95cdc50?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  width:100%;
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  margin:-10px -10px -10px -10px;
+}
+.bg-image2 {
+  background-image: url("https://scontent.fvno3-1.fna.fbcdn.net/v/t1.0-9/83853029_1070031203364456_828291044398333952_n.jpg?_nc_cat=111&_nc_ohc=HcA0Lz1t98UAX-eL7tm&_nc_ht=scontent.fvno3-1.fna&oh=ec49c5e30f653e1c06ccd2ceb8582aa1&oe=5ED04CF4");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  width:100%;
+  height:100%;
+}
+.bg-img3 {
+  background-image:url("https://images.unsplash.com/photo-1536405625809-5c88cdf9a46f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-repeat:no-repeat;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  position: fixed;
+  width:100%;
+  height:100%;
+  margin:-10px;
+}
+.bg-img4 {
+  background-image: url("https://images.unsplash.com/photo-1493136361108-3a3e4b325c5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+filter: blur(3px);
+  -webkit-filter: blur(8px);   
+}
+  .row {
+  display: flex;
+}
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+.button4 {
+  background-color: #C0B283;
+  border: none;
+  color: #373737;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid #ccc;
+  font-family:"Optima", Optima, sans-serif;
+  padding: 25px 35px;
+  font-size: 29px;
+  font-weight:bold;
+  border-radius:15px;
+  margin:-22px -22px 42px 650px;
+}
+.bg-text {
+  background-color: #F4F4F4;;
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #F4F4F4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 25px;
+  text-align: center;
+  font-family:"Optima", Optima, sans-serif;
+}
+.button1 {
+  background-color: #C0B283;
+  border: none;
+  color: #373737;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #ccc;
+  font-family:"Optima", Optima, sans-serif;
+  padding: 15px 25px;
+  font-size: 19px;
+  border-radius:5px;
+  margin:15px 0px 15px 205px;
+}
+.button2 {
+  background-color: #C0B283;
+  border: none;
+  color: #373737;
+  padding: 25px 25px;
+  font-size: 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius:15px;
+  margin-right: 35px;
+  position:fixed;
+  margin: 130px 50px 150px -500px
+}
+.button3 {
+  background-color: #C0B283;
+  border: none;
+  color: #373737;
+  padding: 15px 25px;
+  font-size: 19px;
+  font-weight:bold;
+  border-radius:5px;
+  margin-right: 35px;
+  position:fixed;
+  margin:465px 0px 175px 75px;
+}
+
+h2 {
+line-height:230%;
+font-family: "Optima", Optima, sans-serif;
+padding: 35px;
+position:fixed;
+margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 100px;
+    margin-right: 195px;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#2C1503;
+  background-color:#2C1503;
+  opacity:0.7;
+  color: white;
+  text-align: center;
+}
+.footer1 {
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#2C1503;
+  background-color:#2C1503;
+  opacity:0.7;
+  color: white;
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+  border-radius: 30%;
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-instagram {
+  background: #C13584;
+  color: white;
+  border-radius: 30%;
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align:left;
+  text-decoration: none;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 30%;
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: left;
+  text-decoration: none;
+}
+.topnav {
+    overflow: hidden;
+    background-color:transparent;
+  }
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 13px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:"Optima", Optima, sans-serif;
+    color:#373737;
+  }
+  .topnav1 {
+      overflow: hidden;
+      background-color:transparent;
+    }
+  .topnav1 a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 12px 13px;
+      text-decoration: none;
+      font-size: 20px;
+      font-family:"Optima", Optima, sans-serif;
+      color:#F4F4F4;
+    }
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.topnav1 a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+  input[type=text], select, textarea {
+    width: 150%;
+    padding: 15px;
+    border: 1px solid #373737;
+    border-radius: 5px;
+    box-sizing: content-box;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left:45px;
+    background-color:#F4F4F4;
+    font-family:"Monospace", Courier New, sans-serif;
+    font-size:14px;
+  }
+  .placeholder {
+    height:45;
+  }
+  .container {
+    background-color:
+    text-align:right;
+    width:70%;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  .container1 {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    font-size: 28px;
+    font-weight:bold;
+    cursor: pointer;
+    color: #373737;
+  }
+  .containerTab {
+    padding: 20px;
+    color:#373737;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  body,html {
+    height: 100%;
+    font-size:20px;
+    margin: 0;
+    font-family:"Optima", Optima, sans-serif;
+  }
+  * {
+    margin:0;
+    box-sizing:border-box;
+  }

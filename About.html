@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maryna Barysheva</title>
+  <link rel="stylesheet" type="text/css" href="CSS.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<div class="bg-image2">
+      <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Write.html">Work With Me</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+    </div>
+</div>
+<div class="bg-text">
+  <a href="https://www.linkedin.com/in/maryna-barysheva/" class="button2">Learn more</a>
+  <h1>Hi, my name is Maryna</h1>
+  <h3>And I'm your Dream Writer from home</h3>
+</div>
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background:#C2B9B0;">
+    My writing philosophy
+  </div>
+  <div class="column" onclick="openTab('b2');" style="background:#C2CAC0;">
+   My story in forty words
+  </div>
+  <div class="column" onclick="openTab('b3');" style="background:#EEE2DC;">
+   My experience with writing
+  </div>
+</div>
+<div id="b1" class="containerTab" style="display:none;background:#C2B9B0">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>My writing philosophy</h2>
+  <p>My philosophy behind writing is simple. I write what I believe in and believe in what I write. Writing is an honest, emotional dialogue. It resonates. It provokes questions. It intrigues. It makes you act.</p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:#C2CAC0">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>My story in forty words</h2>
+  <p>A professional ballerina with a passion for writing, I treat each day as an experiment in creativity lab. Traveling addict, sweets lover, and humble singer in the shower. I dance salsa. I drink wine. I love. I hope. I write.</p>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:#EEE2DC">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>My experience with writing</h2>
+  <p>Genetics, military, automobiles,relationships,education. I dare you to name an area I haven't written in yet. With a two-year working experience in content creation and copywriting, I wrote more than 100 texts for US, British, and Canadian B2B/B2C companies. As a chief copyeditor of an online media outlet, I know what it takes to produce a perfect copy. I hunt YOU for grammar accuracy. I chase for YOUR tone. I write from YOUR heart.</p>
+</div>
+<script>
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+<div class="footer">
+  <p>&copy 2020. Maryna Barysheva. <br> Follow me on
+    <a href="https://www.facebook.com/profile.php?id=100010727584482" class="fa fa-facebook"></a>
+    <a href="https://www.linkedin.com/in/maryna-barysheva/" class="fa fa-linkedin"></a>
+    <a href="https://www.instagram.com/marina__barysheva_/" class="fa fa-instagram"></a>
+</div>
+  </html>
